@@ -1,0 +1,54 @@
+body {
+   width: auto;
+   height: auto;
+   margin: auto;
+   font-family: lucida sans-serif;
+   font-size: medium;
+}
+
+.header {
+    height: 10em;
+    padding: 5em;
+    font-size: 2em;
+    background-color: rgb(169, 125, 125);
+    background-image: url("../imgs/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 4px solid #fdb347;
+}
+
+.header h1 {
+    margin: 0px;
+    font-weight: 400;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px 10px;
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: auto;
+    border: 2px solid #fdb347;
+}
+
+.footer{
+    margin: auto;
+    text-align: center;
+    background-color: goldenrod;
+    width: auto;
+    height: 3em;
+    line-height: 3em;
+    color: white;
+    font-weight: 900;
+}
